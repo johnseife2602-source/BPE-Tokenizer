@@ -7,7 +7,7 @@
 [![Inspiration: Andrej Karpathy minbpe](https://img.shields.io/badge/inspired%20by-Andrej%20Karpathy%20minbpe-blueviolet.svg)](https://github.com/karpathy/minbpe)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A high-performance, mathematically rigorous **Byte-Pair Encoding (BPE) Tokenizer Engine** engineered from absolute first principles using Python's standard library only (`re`, `pathlib`, `struct`, `io`). Zero external tokenization dependencies (no HuggingFace `tokenizers`, `tiktoken`, or `sentencepiece` for the core engine).
+A high-performance, mathematically rigorous **Byte-Pair Encoding (BPE) Tokenizer Engine** engineered from absolute first principles using Python's standard library only (`re`, `pathlib`, `io`). Zero external tokenization dependencies (no HuggingFace `tokenizers`, `tiktoken`, or `sentencepiece` for the core engine).
 
 Inspired by Andrej Karpathy's [`minbpe`](https://github.com/karpathy/minbpe), this project extends the modern GPT-4 tokenization architecture to actively solve the **"Token Tax" problem on low-resource Abugida scripts** (specifically **Tigrigna / Ge'ez script**, where standard frontier LLMs fragment 3-byte UTF-8 sequences into $4\times$ to $8\times$ too many tokens).
 
