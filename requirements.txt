@@ -1,0 +1,11 @@
+# ==============================================================================
+# Ge'ez BPE Tokenizer Engine Dependencies
+# ==============================================================================
+# Core engine has ZERO external dependencies (pure Python standard library).
+#
+# Optional dependencies:
+# - tiktoken: for running live head-to-head comparison against GPT-4 in benchmark.py
+# - zstandard: for streaming decompressing .zst/.zstd dataset archives
+tiktoken>=0.7.0
+zstandard>=0.23.0
+
