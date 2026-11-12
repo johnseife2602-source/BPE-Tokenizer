@@ -7,7 +7,7 @@ __pycache__/
 *.pyc
 .pytest_cache/
 
-# Large Datasets & Archives (Do not commit multi-gigabyte corpora to GitHub)
+
 tigrinya-corpus/
 *.zst
 *.zstd
